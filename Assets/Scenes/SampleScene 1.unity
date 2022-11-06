@@ -349,8 +349,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin
       objectReference: {fileID: 0}
+    - target: {fileID: 1122351102193996478, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1122351102193996479, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122351102193996479, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_RightHandMoveAction.m_UseReference
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122351102193996480, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122351102193996480, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_LeftHandSnapTurnAction.m_UseReference
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1122351102193996480, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
@@ -359,15 +375,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1122351102193996481, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122351102193996481, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_LeftHandTurnAction.m_UseReference
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122351102193996481, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_RightHandTurnAction.m_UseReference
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1122351102193996482, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
       propertyPath: m_RequestedTrackingOriginMode
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1122351102193996484, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_TurnStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122351102193996484, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
       propertyPath: m_MoveScheme
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1122351102193996485, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
       propertyPath: m_RootOrder
@@ -432,6 +460,18 @@ PrefabInstance:
     - target: {fileID: 1122351103135995199, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122351103166858531, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122351103166858534, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Id
+      value: 11921cb1-a12c-479b-b7fc-e06d2c96b818
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122351103166858534, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Name
+      value: Directional Anchor Rotation
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21c14e07ac5bf504990f668f6ec4152a, type: 3}
